@@ -1,18 +1,17 @@
 import axios from "axios";
 import React, {useState} from "react";
+import Results from "./Results"
 
 export default function Search(){
     const[keyWord, setKeyWord] = useState (null);
+    const[results, setResults] = useState(null);
 
     function handleResponse(response){
-        console.log(response.data[0])
+        setResults(response.data[0]);
     }
 
     function handleSearch(event){
     event.preventDefault();
-    alert(
-        `Searching for ${keyWord} definition`
-    );
     let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en_US/${keyWord}`;
 
     axios.get(apiUrl).then(handleResponse);
@@ -26,6 +25,7 @@ export default function Search(){
             <form onSubmit ={handleSearch}>
 <input type="search" onChange={handleChange}/>
             </form>
+            <Results results={results}/>
         </div>
     );
 }
