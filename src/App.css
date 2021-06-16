@@ -1,0 +1,17 @@
+body {
+    background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+}
+h1 {
+    font-size: 45px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-family: 'Spartan', sans-serif;
+}
+footer{
+    font-size: 12px;
+    text-align: center;
+    font-family: 'Spartan', sans-serif;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}

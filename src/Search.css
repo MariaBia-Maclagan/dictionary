@@ -1,0 +1,29 @@
+.container{
+    display:flex;
+    justify-content: center;
+}
+
+.Search section{
+    background-color:#fff;
+    border-radius: 14px;
+    margin: 20px 40px;
+    padding: 15px 30px;
+    max-width: 900px;
+}
+h2{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+}
+.hint{
+    font-family: 'Spartan', sans-serif;
+    font-size: 12px;
+    opacity: 0.5;
+}
+.Search input {
+    width: 100%;
+    padding: 20px 24px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-family: 'Spartan', sans-serif;
+
+}

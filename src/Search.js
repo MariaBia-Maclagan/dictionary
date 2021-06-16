@@ -29,11 +29,17 @@ function load (){
 }
 if(loaded){
     return (
+        <div className="container">
         <div className="Search">
+            <section>
             <form onSubmit ={handleSearch}>
+                <h2>What word are you looking for?</h2>
 <input type="search" onChange={handleChange} defaultValue={props.defaultKeyWord}/>
+<p className="hint">Suggested words: joy, happiness, sunrise...</p>
             </form>
+            </section>
             <Results results={results}/>
+        </div>
         </div>
     );
 }else{

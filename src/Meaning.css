@@ -1,0 +1,13 @@
+.Meaning h3{
+    font-family: 'Spartan', sans-serif;
+    font-size: 18px;
+}
+
+.Meaning p{
+    font-family: 'Spartan', sans-serif;
+    font-size: 15px;
+}
+
+.Meaning em{
+    opacity: 0.7;
+}

@@ -9,6 +9,7 @@ export default function App() {
         <h1>Dictionary</h1>
         < Search defaultKeyWord="Sunset"/>
       </header>
+      <footer> Coded by M F Maclagan </footer>
     </div>
   );
 }
