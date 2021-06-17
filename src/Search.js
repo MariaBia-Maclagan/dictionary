@@ -29,7 +29,6 @@ function load (){
 }
 if(loaded){
     return (
-        <div className="container">
         <div className="Search">
             <section>
             <form onSubmit ={handleSearch}>
@@ -39,7 +38,6 @@ if(loaded){
             </form>
             </section>
             <Results results={results}/>
-        </div>
         </div>
     );
 }else{

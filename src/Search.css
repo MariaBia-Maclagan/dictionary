@@ -1,14 +1,11 @@
-.container{
-    display:flex;
-    justify-content: center;
-}
 
 .Search section{
     background-color:#fff;
     border-radius: 14px;
-    margin: 20px 40px;
     padding: 15px 30px;
     max-width: 900px;
+    margin: 0 auto;
+    margin-bottom: 10px;
 }
 h2{
     font-family: 'Quicksand', sans-serif;
