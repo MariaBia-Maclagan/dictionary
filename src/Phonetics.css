@@ -1,5 +1,18 @@
-.Phonetics a {
+.Phonetics .AudioButton{
+    border: 1px solid;
+    border-radius: 50px;
+    font-size: 11px;
+    line-height: 20px;
+    padding: 10px 10px;
+}
+.fas fa-play-circle{
+    color: black;
+
+}
+
+.Phonetics .Text {
     font-family: 'Spartan', sans-serif;
     font-size: 15px;
-    
+    line-height: 30px;
+    margin-right: 30px;
 }
