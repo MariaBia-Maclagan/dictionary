@@ -1,13 +1,17 @@
 .Phonetics .AudioButton{
-    border: 1px solid;
+    border: 1px solid #fff1eb;
     border-radius: 50px;
     font-size: 11px;
-    line-height: 20px;
-    padding: 10px 10px;
+    padding: 3px 3px;
+    line-height: 10px;
+    margin-right: 10px;
 }
-.fas fa-play-circle{
-    color: black;
-
+.fa-play-circle{
+    font-size: 27px;
+    color: #8ad5f8;
+}
+.fa-play-circle:hover{
+    color: #104057;
 }
 
 .Phonetics .Text {

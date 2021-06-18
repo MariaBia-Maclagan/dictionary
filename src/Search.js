@@ -33,7 +33,7 @@ if(loaded){
             <section>
             <form onSubmit ={handleSearch}>
                 <h2>What word are you looking for?</h2>
-<input type="search" onChange={handleChange} defaultValue={props.defaultKeyWord}/>
+<input type="search" onChange={handleChange} defaultValue="Enter word"/>
 <p className="hint">Suggested words: joy, happiness, sunrise...</p>
             </form>
             </section>
