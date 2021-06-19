@@ -8,7 +8,7 @@ return(
         <div className="row">
         {props.photos.map(function(photo,index){
             return ( 
-                <div className="col-lg-4" key={index}>
+                <div className="col-4" key={index}>
                     <a href={photo.src.original} tagert="_blank" rel="noreferrer">
                     <img src={photo.src.landcaspe} alt="" className="img-fluid"/>
                     </a>

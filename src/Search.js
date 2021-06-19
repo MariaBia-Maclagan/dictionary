@@ -8,7 +8,7 @@ export default function Search(props){
     const[keyWord, setKeyWord] = useState (props.defaultKeyWord);
     const[results, setResults] = useState(null);
     const [loaded, setLoaded] =useState(false);
-    const[photos, setPhotos] =useState();
+    const[photos, setPhotos] =useState(null);
 
 function handlePexels (response){
     setPhotos (response.data.photos);
