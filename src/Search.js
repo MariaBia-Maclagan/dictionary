@@ -22,7 +22,7 @@ function handlePexels (response){
         axios.get(apiUrl).then(handleResponse);
 
         let apiKeyPexels = `563492ad6f91700001000001addac54c34fd4d02bb849da638fc7ce0`;
-        let pexelsUrl = `https://api.pexels.com/v1/search?query=${keyWord}&per_page=1`;
+        let pexelsUrl = `https://api.pexels.com/v1/search?query=${keyWord}&per_page=6`;
         axios.get(pexelsUrl, {headers:{"Authorization" : `Bearer ${apiKeyPexels}`},}).then(handlePexels);
     }
 
