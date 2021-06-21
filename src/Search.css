@@ -6,7 +6,8 @@
     max-width: 900px;
     margin: 0 auto;
     margin-bottom: 10px;
-    box-shadow: 5px 5px 5px rgb(197, 197, 197);
+    box-shadow: rgb(0 0 0 / 20%) 0 5px 5px 0;
+    opacity: 0.9;
 }
 h2{
     font-family: 'Quicksand', sans-serif;

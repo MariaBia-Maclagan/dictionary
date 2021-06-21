@@ -9,7 +9,8 @@ export default function App() {
         <h1>Dictionary</h1>
         < Search defaultKeyWord="Creativity"/>
       </header>
-      <footer> Coded by M F Maclagan </footer>
+      <footer> 
+        <a href="https://github.com/MariaBia-Maclagan/dictionary" target="_blank" rel="noreferrer">Open sorce code </a> by M F Maclagan </footer>
     </div>
   );
 }
